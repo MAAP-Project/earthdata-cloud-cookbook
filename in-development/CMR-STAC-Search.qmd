@@ -171,7 +171,7 @@ We can see that the output includes the number of items associated with the coll
 
 STAC Item represents data and metadata assets that are spatiotemporally coincident. Using our STAC Query, let's get the first items within the `ASTGTM_003` STAC Collection.
 
-```{r, attr.output='style="max-height: 300px;"'}
+```{r}
 first_item <- col_items$features[[1]]
 first_item
 ```
