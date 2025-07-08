@@ -154,7 +154,7 @@ We can see that the output includes the number of items that fall within the sea
 
 ## 2c. STAC Item
 
-STAC Item represents data and metadata assets that are spatiotemporally coincident. Using our STAC Query, let's get the first item within the `ASTGTM_003` STAC Collection.
+STAC Item represents data and metadata assets that are spatiotemporally coincident. Using our STAC Query, let's get the first item from our STAC collection search in the above cell.
 
 ```{r}
 first_item <- collection_search$features[[1]]
